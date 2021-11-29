@@ -1,0 +1,15 @@
+#+TITLE: Post APT Installer (PAPT)
+#+AUTHOR: Avishek Dutta
+
+* Welcome to *Post APT Installer (PAPT)*
+PAPT is an installer for Debian-based systems. It uses APT as package manager. PAPT is written in /Emacs/.
+** Features
+- [-] ZSH
+- [-] Oh My ZSH
+- [-] Doom Emacs
+- [-] /Arc GTK Theme/ and /Tela Icon Pack/
+- [-] Conky (with theme)
+- [-] VLC Media player
+** Footer Notes
+This project is under development...
+If you get any problem, you are welcome to create an [[https://github.com/avishekdutta531/papt/issues][issue]]!

@@ -1,0 +1,49 @@
+conky.config = {
+
+	own_window_class = 'Conky',
+	own_window = true,
+	own_window_type = 'desktop',
+	own_window_argb_visual = true,
+	own_window_argb_value = 255,
+	own_window_transparent = false,
+	own_window_colour = '14161B',
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+
+	border_inner_margin = 25,
+	border_outer_margin = 0,
+
+	alignment = 'top_right',
+	gap_x = 55,
+	gap_y = 80,
+	minimum_width = 355,
+	maximum_width = 355,
+
+	draw_shades = false,
+
+	update_interval = 1,
+	total_run_times = 0,
+	net_avg_samples = 2,
+	cpu_avg_samples = 2,
+
+	double_buffer = true,
+	no_buffers = true,
+
+	use_xft = true,
+	font = 'cantarell:size=12',
+	override_utf8_locale = true,
+
+	default_color = '#eeeeee',
+	color1 = '#bbbccc',
+
+};
+
+conky.text = [[
+${voffset }${offset }${font Arial:weight=Bold:size=30}${time %I:%M %p}${font}${color}
+${font Arial:weight=Bold:size=20}${voffset 15}${offset 3}${time %A, %-d %B}${font}
+${font Arial:weight=Regular:size=13}${voffset 25}${offset 4}CPU
+${font Arial:weight=Regular:size=11}${voffset 5}${offset 4}${cpu}%
+${font Arial:weight=Regular:size=13}${voffset -45}${offset 110}RAM
+${font Arial:weight=Regular:size=11}${voffset 5}${offset 110}${memperc}%
+${font Arial:weight=Regular:size=13}${voffset -46}${offset 220}HOME
+${font Arial:weight=Regular:size=11}${voffset 5}${offset 220}${fs_used_perc}%
+]];
