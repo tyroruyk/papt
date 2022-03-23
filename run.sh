@@ -67,7 +67,7 @@ echo "${GREEN}Installing Doom Emacs...${NC}"
 git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 ~/.emacs.d/bin/doom sync
-rm ~/.doom.d
+rm -rf ~/.doom.d
 cp -r ./dot-files/.doom.d ~
 ~/.emacs.d/bin/doom sync -e
 
