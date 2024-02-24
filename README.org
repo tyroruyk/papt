@@ -1,7 +1,7 @@
 #+TITLE: Post APT Installer (PAPT)
 #+AUTHOR: Avishek Dutta
 
-PAPT is an installer for Debian-based systems. It uses APT as package manager. PAPT is written in /Emacs/.
+PAPT, the post installation script for Debian-based systems.
 ** Features
 -  ZSH
 - Oh My ZSH
@@ -10,5 +10,4 @@ PAPT is an installer for Debian-based systems. It uses APT as package manager. P
 - Conky (with theme)
 - VLC Media player
 ** Footer Notes
-This project is under development...
 If you get any problem, you are welcome to create an [[https://github.com/avishekdutta531/papt/issues][issue]]!
